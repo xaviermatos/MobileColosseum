@@ -1,149 +1,227 @@
-body{
-    background-color: darkgray;
-    background-image: url(photos/greybackground.png);
-    background-repeat: repeat;
-    color: white;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-            
+body {
+	background-color: darkgray;
+	background-image: url(photos/greybackground.png);
+	background-repeat: repeat;
+	color: white;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
+
 /*Change the background color to dark gray, add a background image and make the background image repeat, change the font color to white of the body, added margin 0, changed the font family. */
 
-#container{
-    width:90%;
-    margin:auto;
-    background-color: yellowgreen;
-    padding:2%;
-    height: 820px;
+
+#container {
+	width: 90%;
+	margin: auto;
+	background-color: yellowgreen;
+	padding: 2%;
+	height: 820px;
 }
+
 /*Change the background color to yellowgreen, align the text to the center, add 200 pixels of padding on top.. */
 
-#homecontainer{
-    width:90%;
-    margin:auto;
-    background-color: yellowgreen;
-    padding:2%;
-    height: 615px;
+#homecontainer {
+	width: 90%;
+	margin: auto;
+	background-color: yellowgreen;
+	padding: 2%;
+	height: 615px;
+    padding-bottom: 6%;
 }
+
 /*Change the background color to yellowgreen, make the width 90 percent, 2 percent padding, make margin auto and made the height 630px for the homecontainer div used only in the home page. */
 
-#header{
-    background-color: yellowgreen;
-    padding: 2%;
-    text-align: center;
-    margin-bottom: 1%;
-    
+#header {
+	background-color: yellowgreen;
+	padding: 2%;
+	text-align: center;
+	margin-bottom: 1%;
+
 }
+
 /* Change the background color to yellowgreen, 2 percent padding, align the text to the center, add 1 percent margin on the bottom. */
 
-#main{
-    height: 600px;
-    background-color: white;
+main {
+	height: 600px;
+	background-color: white;
 }
+
 /*Make the main div height 600 pixels and changed the background color to white. */
 
-#footer{
-    background-color: yellowgreen;
-    text-align:center;
-    padding-top: 200px;
+#footer {
+	background-color: yellowgreen;
+	text-align: center;
+	padding-top: 200px;
 }
 
 /*Change the background color to yellowgreen, align the text to the center, add 200 pixels of padding on top. */
 
-#homefooter{
-    background-color: yellowgreen;
-    text-align:center;
+#homefooter {
+	background-color: transparent;
+	text-align: center;
+    margin-top: 4%;
 }
+
 /*Change the background color to yellowgreen, align the text to the center. */
- 
-#leftbar{
-    background-color: darkgray;
-    float:left;
-    width:50%;
-    height: 800px;
-    text-align:center;
-    margin: 0px;
-    padding: 0px;
+
+#leftbar {
+	background-color: darkgray;
+	float: left;
+	width: 50%;
+	height: 800px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
+
 /*Change the background color to darkgray, align the text to the center, float the div to the left, made the width 50 percent, made the height 800 pixels, made the margin and padding 0 pixels. */
 
-#rightbar{
-    float:left;
-    width:50%;
-    height:800px;
-    text-align:center;
-    background-color: darkgray;
+#rightbar {
+	float: left;
+	width: 50%;
+	height: 800px;
+	text-align: center;
+	background-color: darkgray;
 }
+
 /*Change the background color to darkgray, align the text to the center, float the div to the left, made the width 50 percent, made the height 800 pixels. */
 
-#top{
-    text-align:center;
-    width:100%;
-    height:50%;
-    background-color: darkgray;
-    padding-top: 1px;
+#top {
+	text-align: center;
+	width: 100%;
+	height: 50%;
+	background-color: darkgray;
+	padding-top: 1px;
+    padding-bottom: 5.5%;
 }
+
 /*Change the background color to darkgray, align the text to the center, made the height 30 percent and made the width 100 percent added 1 pixel of padding on top. */
 
-#bottom{
-    text-align:center;
-    width:100%;
-    height:50%;
-    background-color: darkgray;
+#bottom {
+	text-align: center;
+	width: 100%;
+	height: 50%;
+	background-color: darkgray;
 }
+
 /*Change the background color to darkgray, align the text to the center, made the height 70 percent and made the width 100 percent. */
 
 #back {
-    text-align:center;
+	text-align: center;
 }
+
 /*Align the text to the center. */
 
 .topnav {
-  overflow: hidden;
-  background-color: darkgray;
-  padding: 10px;
+	overflow: hidden;
+	background-color: darkgray;
+	padding: 10px;
 }
+
 /*Hid the overflow from the top nav and changed the background color to dark gray. */
 
 
 .topnav a {
-  text-align: center;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	text-align: center;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
+
 /*Made the links in the top nav be centered, changed the color to white, changed the padding on top and the sides from 14 pixels and 16 pixels, made the font size 17 pixels. */
 
 .topnav a:hover {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
+
 /*Made the background links in the nav turn white when hovered over. */
 
 .topnav a.active {
-  background-color: yellowgreen;
-  color: white;
+	background-color: yellowgreen;
+	color: white;
 }
+
 /*Made the background color in the links turn yellowgreen when active */
 
 a:link {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
+
 /*Made the color in the links turn white and removed the bottom line in the links */
 
 a:visited {
-    color: white;
+	color: white;
 }
+
 /*Made the color in the visited links turn white */
 
 a:hover {
-    color: yellowgreen;
+	color: yellowgreen;
 }
+
 /*Made the color in the hovered links turn yellowgreen */
 
 a:active {
-    color: gray;
-} 
+	color: gray;
+}
+
 /*Made the color in the active links turn gray  */
+
+.smartphonePhoto {
+	height: 30%;
+	width: 35%;
+}
+
+.bannerImage {
+	width: 40%;
+}
+
+h3 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media screen and (max-width: 540px) {
+
+	.topnav a {
+		padding: 4px 16px;
+	}
+
+	.topnav a.active {
+		background-color: transparent;
+		color: yellowgreen;
+	}
+
+	.topnav a:hover {
+		background-color: transparent;
+		color: black;
+	}
+
+	#top {
+		padding-bottom: 78.5%;
+	}
+
+	.smartphonePhoto {
+		height: 30%;
+		width: 75%;
+	}
+
+	#homecontainer {
+		padding-bottom: 70%;
+	}
+    
+    #homefooter {
+        margin-top: 7%;
+    }
+    
+    #footer {
+        background-color: transparent;
+        margin-top: 7%;
+    }
+}
+
+/*Allows for the navigation and the rest of the website to work on mobile devices */
